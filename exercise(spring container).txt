@@ -1,0 +1,86 @@
+Q1:
+hey from message1
+
+*******************************
+Q2:
+hey from message1
+hey from message2
+
+*******************************
+Q3:
+
+1- hey from message1
+   hey from message3
+   hey from message2
+
+2- hey from message3
+   hey from message1
+   hey from message2
+
+3- hey from message3
+   hey from message2
+   hey from message1
+
+  description:
+   message2 not work until message 3 work
+
+******************************
+Q4:
+
+
+1- hey from message1
+   hey from message3
+   hey from message2
+   hey from main controller
+   
+ 2- hey from message3
+    hey from message1
+    hey from main controller
+    hey from message2
+
+3-   hey from message1
+     hey from message3
+     hey from main controller
+     hey from message2
+
+4-  hey from message1 
+    hey from main controller
+    hey from message3
+    hey from message2
+
+ description:
+
+message 2 can not work until message 3 work
+mainController can not work until message 1 run
+
+**********************************
+Q5:
+
+1- hey from message3
+   hey from message2
+   hey from main controller
+   hey from message1
+
+
+2- hey from message3
+   hey from message1
+   hey from message2
+   hey from main controller
+
+3- hey from message3
+   hey from message2
+   hey from message1
+   hey from main controller
+
+4- hey from message1
+   hey from message3
+   hey from message2
+   hey from main controller
+
+description:
+
+message2 not work until message3 work
+mainController not work until message2 work
+
+   
+   
